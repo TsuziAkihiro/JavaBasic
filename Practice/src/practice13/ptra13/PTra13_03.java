@@ -15,12 +15,13 @@ public class PTra13_03 {
 
 	public static void main(String[] args) {
 		// ★ common.Slimeクラスをインスンタンス化してください
-
+		practice13.common.Slime slime = new practice13.common.Slime();
 
 		// ★ common.Slimeインスタンスのnameに"スライム"を設定して下さい
-
+		slime.setName("スライム");
 
 		// ★ common.Slimeインスタンスのキャラクター情報を表示してください
-
+		String parameter = slime.showParameter();
+		System.out.println(parameter);
 	}
 }
