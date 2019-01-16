@@ -5,7 +5,6 @@
  * Copyright(c) Rhizome Inc. All Rights Reserved.
  */
 package practice16;
-
 public class PTra16_02 {
 	public static void main(String[] args) {
 
@@ -19,5 +18,13 @@ public class PTra16_02 {
 		double d = 453.592;
 
 		// ★ 上記基本型を、それぞれのラッパークラスに代入してください
+		Boolean b2 = b;
+		Byte by2 = by;
+		Short s2 = s;
+		Character c2 = c;
+		Long l2 = l;
+		Integer i2 = i;
+		Float f2 = f;
+		double d2 = d;
 	}
 }
