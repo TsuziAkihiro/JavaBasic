@@ -31,6 +31,10 @@ public class Player {
 	public String getTeam() {
 		return this.team;
 	}
+	public void setTeam(String team) {
+		this.team = team;
+	}
+
 
 	@Override
 	public String toString() {
