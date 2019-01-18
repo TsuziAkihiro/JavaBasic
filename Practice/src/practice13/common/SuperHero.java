@@ -19,6 +19,6 @@ public class SuperHero extends Hero{
 
 
 	public int attack() {
-		return (super.attack()+ this.equipment.getAdditionalDamage());
+		return super.attack()+ this.equipment.getAdditionalDamage();
 	}
 }

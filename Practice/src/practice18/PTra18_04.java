@@ -68,6 +68,5 @@ public class PTra18_04 {
         		fwCount ++;
         	}
         }
-
 	}
 }

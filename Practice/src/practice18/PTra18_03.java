@@ -50,9 +50,8 @@ public class PTra18_03 {
 
 
 //		 ★ 削除後のArrayListの中身を全件出力してください
-        for(int i = 0;i < array.size();i++){
-            System.out.print(array.get(i).toString());
-            System.out.println("");
+        for(Player player:array){
+            System.out.println(player);
         }
 
 	}

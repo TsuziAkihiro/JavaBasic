@@ -8,9 +8,16 @@ public class Item {
 		return this.name;
 	}
 
+	public void setName(String name) {
+		this.name = name;
+	}
+
 	public int getAdditionalDamage() {
 		return this.additionalDamage;
 
+	}
+	public void setAdditionalDamage(int additionalDamage) {
+		this.additionalDamage = additionalDamage;
 	}
 
 	public Item(String name, int additionalDamage) {

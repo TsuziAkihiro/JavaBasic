@@ -28,7 +28,5 @@ public class PTra17_04 {
 		        }
 		    }
 		    System.out.println();
-
-
 	}
 }

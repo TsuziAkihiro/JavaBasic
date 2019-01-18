@@ -46,5 +46,6 @@ public class PTra03_08 {
 				System.out.println((money - 200)+"円");
 				break;
 		}
+		System.out.println("所持金：" + money);
 	}
 }
